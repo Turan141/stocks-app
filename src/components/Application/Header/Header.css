@@ -1,0 +1,51 @@
+* {
+	font-family: "Rubik";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 100%;
+	color: #2d3b87;
+}
+
+.main-header {}
+
+.main-header_color {
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	left: calc(50% - 1200px / 2);
+	top: 0px;
+	background: #e0e3ee;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.main-header_navigation {
+	display: flex;
+}
+
+.main-header_navigation ul {
+	display: flex;
+	list-style: none;
+	padding: 0 1rem;
+	margin-left: auto;
+}
+
+.main-header_navigation ul li {
+	display: flex;
+	flex-direction: column;
+	transition: 0.5s ease;
+	text-decoration: none;
+}
+
+.main-header_navigation ul li :hover {
+	background-color: #f4f5f9;
+	border-radius: 15px;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.main-header_navigation ul li :not(:hover) {
+	border-radius: 15px;
+	transition: 0.3s ease;
+	text-decoration: none;
+}
